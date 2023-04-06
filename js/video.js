@@ -62,13 +62,13 @@ document.querySelector("#slider").addEventListener("change", function() {
 
 document.querySelector("#vintage").addEventListener("click", function() {
     console.log("I am in old school")
-    bd = document.querySelector("body")
-    bd.classList.add("oldSchool")
+    video = document.querySelector("video")
+    video.classList.add("oldSchool") = "video"
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
     console.log("I am in original")
-    bd = document.querySelector("body")
-    bd.classList.remove("oldSchool")
+    video = document.querySelector("video")
+    video.classList.remove("oldSchool") = "video"
 });
 
